@@ -1,12 +1,40 @@
 - name: SwiftGoal
   description: "This project showcases the Model-View-ViewModel (MVVM) architecture with ReactiveCocoa 4, while serving as a digital logbook of FIFA matches."
   tags: [MVVM]
-  platforms: ios
+  type: app
+  platforms: [ios]
   rac_version: 4
   repo_url: https://github.com/richeterre/SwiftGoal
 - name: Rewatch
   description: Rewatch your favorite (or not) TV shows episodes.
   tags: []
-  platforms: ios
+  type: app
+  platforms: [ios]
   rac_version: 4
   repo_url: https://github.com/palleas/rewatch
+- name: Carthage
+  description: A simple, decentralized dependency manager for Cocoa
+  type: tool
+  rac_version: 4
+  platforms: [cli]
+  repo_url: https://github.com/carthage/carthage
+- name: Tropos
+  description: Weather and Forecasts for Humans
+  type: app
+  rac_version: 4
+  platforms: [ios]
+  repo_url: https://github.com/carthage/carthage
+- name: Tentacle
+  description: A Swift framework for the GitHub API
+  tags: []
+  type: framework
+  platforms: []
+  rac_version: 4
+  repo_url: https://github.com/mdiep/Tentacle
+- name: Reactor
+  description: Powering your RAC architecture
+  tags: []
+  type: framework
+  platforms: []
+  rac_version: 4
+  repo_url: https://github.com/MailOnline/Reactor
