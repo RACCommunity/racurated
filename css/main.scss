@@ -28,7 +28,10 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// Specific vars
+$app-color: #cc0000;
+$framework-color: #00cc00;
+$tool-color: #0000cc;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -51,3 +54,12 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+h1.app a { color: $app-color; }
+h1.framework a { color: $framework-color; }
+h1.tool a { color: $tool-color; }
+
+.platform { 
+	font-size: 0.6em; 
+	background-color: #eee;
+}

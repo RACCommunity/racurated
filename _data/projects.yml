@@ -1,13 +1,13 @@
 - name: SwiftGoal
   description: "This project showcases the Model-View-ViewModel (MVVM) architecture with ReactiveCocoa 4, while serving as a digital logbook of FIFA matches."
-  tags: [MVVM]
+  highlights: [MVVM]
   type: app
   platforms: [ios]
   rac_version: 4
   repo_url: https://github.com/richeterre/SwiftGoal
 - name: Rewatch
   description: Rewatch your favorite (or not) TV shows episodes.
-  tags: []
+  highlights: [Core Data]
   type: app
   platforms: [ios]
   rac_version: 4
@@ -26,14 +26,14 @@
   repo_url: https://github.com/carthage/carthage
 - name: Tentacle
   description: A Swift framework for the GitHub API
-  tags: []
+  highlights: []
   type: framework
   platforms: []
   rac_version: 4
   repo_url: https://github.com/mdiep/Tentacle
 - name: Reactor
   description: Powering your RAC architecture
-  tags: []
+  highlights: []
   type: framework
   platforms: []
   rac_version: 4

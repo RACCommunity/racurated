@@ -3,11 +3,7 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Projects</h1>
-
 	{% for project in site.data.projects %}
-		<h2>{{ project.name }}</h2>	
+		{% include project.html project=project %}
 	{% endfor %}
-
 </div>
