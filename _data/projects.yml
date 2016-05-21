@@ -5,13 +5,17 @@
   rac_version: 4
   repo_url: https://github.com/richeterre/SwiftGoal
 - name: Rewatch
-  description: Rewatch your favorite (or not) TV shows episodes.
+  description: >
+    Rewatch is an application that talks to Betaseries, a service to track the TV Shows you've watched and suggest you an episode 
+    to watch again. It uses ReactiveCocoa to talk to the Betaseries API and save content to a CoreData database.
   highlights: [Core Data, Networking]
   type: ios
   rac_version: 4
   repo_url: https://github.com/palleas/rewatch
 - name: Carthage
-  description: A simple, decentralized dependency manager for Cocoa
+  description: >
+    Carthage is a simple, decentralized dependency manager for Cocoa and is a great example of how you can use ReactiveCocoa to
+    write command line tools with Swift.
   type: tool
   highlights: [Command line]
   rac_version: 4
