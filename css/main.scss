@@ -7,8 +7,8 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-size:   15px;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -28,11 +28,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// Specific vars
-$app-color: #cc0000;
-$framework-color: #00cc00;
-$tool-color: #0000cc;
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -47,19 +42,48 @@ $tool-color: #0000cc;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+a {
+    &:visited {
+        color: $brand-color;
+    }
+}
 
-h1.app a { color: $app-color; }
-h1.framework a { color: $framework-color; }
-h1.tool a { color: $tool-color; }
+.project {
+	padding-left: 40px;	
+    margin-bottom: 10px;
+    h1, p {
+        margin-bottom: 0;
+    }
 
-.platform { 
-	font-size: 0.6em; 
-	background-color: #eee;
+}
+
+.repo-link {
+    margin-top:10px; 
+}
+
+.ios {
+	background: url(/css/smartphone-icon.png) no-repeat 10px 10px;
+}
+
+.mac {
+    background: url(/css/computer-icon.png) no-repeat 0 10px;
+}
+
+.tool, .framework {
+    background: url(/css/wrench.png) no-repeat 10px 10px;
+}
+
+.highlights {
+    color: #424242;
+    font-size: 0.5em;
+}
+
+.site-footer {
+    text-align: center;
 }

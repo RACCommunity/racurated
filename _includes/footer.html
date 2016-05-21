@@ -1,7 +1,12 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
+	{% for my_page in site.pages %}
+	  {% if my_page.title %}
+	  <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+	  {% endif %}
+	{% endfor %}
+	- Curated by <a href="https://romain-pouclet.com">Romain Pouclet</a> and <a href="https://github.com/racurated/racurated.github.io/graphs/contributors">contributors</a>.
   </div>
 
 </footer>

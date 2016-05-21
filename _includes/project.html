@@ -1,19 +1,12 @@
-<div class="project">
-	<h1 class="{{ project.type }}">
+<div class="project {{ project.type }}">
+	<h1>
 		<a href="{{ project.repo_url }}">{{ project.name }}</a>
-		{% if project.platforms %}
-			<span class="platform">{{ project.platforms }}</span>
+		{% if project.highlights | size > 0 %}
+			<span class="highlights">{{ project.highlights | join: ", " }}</span>
 		{% endif %}
 	</h1>
+
 	<p>{{ project.description }} </p>
-
-	{% if project.highlights | size > 0 %}
-
-	<ul class="highlights">
-		{% for highlight in project.highlights %}
-			<li>{{ highlight }}</li>
-		{% endfor %}
-	</ul>
-
-	{% endif %}
+	
+	<p class="repo-link"><a href="{{ project.repo_url }}">{{ project.repo_url | remove: "http://" | remove: "https://" }}</a></p>
 </div>
