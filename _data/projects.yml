@@ -25,7 +25,7 @@
   type: ios
   highlights: []
   rac_version: 4
-  repo_url: https://github.com/carthage/carthage
+  repo_url: https://github.com/thoughtbot/Tropos
 - name: Tentacle
   description: A Swift framework for the GitHub API
   highlights: [3rd party client]
