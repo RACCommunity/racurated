@@ -19,3 +19,5 @@ github_username: ReactiveCocoa
 
 # Build settings
 markdown: kramdown
+exclude: 
+  - vendor
