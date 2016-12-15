@@ -1,3 +1,19 @@
+- name: Kickstarter
+  description: "Kickstarter for iOS."
+  highlights: [MVVM]
+  type: ios
+  rac_version: 4
+  repo_url: https://github.com/kickstarter/ios-oss
+- name: Ksapi
+  description: "Models and API services for the Kickstarter iOS app."
+  type: ios
+  rac_version: 4
+  repo_url: https://github.com/kickstarter/ios-ksapi
+- name: Kickstarter-ReactiveExtensions 
+  description: A collection of extensions to the Reactive Cocoa framework.
+  type: ios
+  rac_version: 4
+  repo_url: https://github.com/kickstarter/Kickstarter-ReactiveExtensions
 - name: Giraffe
   description: "iOS client for Giphy written in Swift with ReactiveCocoa."
   highlights: [MVVM, Networking, Protocol Extensions]
