@@ -67,3 +67,9 @@
   type: mac
   rac_version: 4
   repo_url: https://github.com/Palleas/Bailiff
+- name: Crystal Clipboard
+  description: Application for managing copy/paste across devices
+  type: ios
+  highlights: [MVVM, Networking, Core Data]
+  rac_version: 6
+  repo_url: https://github.com/jzzocc/crystal-clipboard-ios
